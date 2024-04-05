@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class TaskOne {
+
     private String getData() throws IOException {
         System.out.println("Task One");
         System.out.println("Enter data:");

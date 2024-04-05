@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class TaskThree {
+
     private String getData() throws IOException {
         System.out.println("Task Three");
         System.out.println("Enter data:");
@@ -33,16 +34,14 @@ public class TaskThree {
         int sum = 9*60;
 
         sum += data*45;
-
         sum += 5*((data)/2);
-
         sum += 15*((data-1)/2);
 
         return sum;
     }
+
     public void doTask() throws IOException {
         int data = Integer.parseInt(getData());
-
         int answer = getAnswerMinute(data);
 
         print(answer/60, answer%60);
