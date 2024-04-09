@@ -1,7 +1,10 @@
 package ua.com.alevel;
 
+import ua.com.alevel.view.CalculatorView;
+
 public class CalculatorMain {
     public static void main(String[] args) {
-        System.out.println("Hello calcurator!");
+        CalculatorView calculatorView = new CalculatorView();
+        calculatorView.start();
     }
 }
